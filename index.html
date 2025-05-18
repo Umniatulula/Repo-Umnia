@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunia Baca Umnia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#buku-dibaca">Buku Dibaca</a></li>
+                <li><a href="#buku-akan-dibaca">Rencana Baca</a></li>
+                <li><a href="#rekomendasi">Rekomendasi</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="beranda" class="hero">
+            <h1>Selamat Datang di Catatan Membaca</h1>
+            <p>Tempat berbagi pengalaman membaca dan rekomendasi buku</p>
+        </section>
+
+        <section id="tentang" class="about">
+            <h2>Tentang</h2>
+            <p>Halo aku Umnia, website ini buat menulis list bacaan buku aku dan juga website buat teman teman yang punya reccomendasi bacaan feel free to share yaa...</p>
+        </section>
+
+        <section id="buku-dibaca" class="book-list">
+            <h2>Buku yang Sudah Dibaca</h2>
+            <div class="reading-progress">
+                <h3>Progress Membaca Tahun 2025</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 60%;">
+                        <span>4 Buku</span>
+                    </div>
+                </div>
+            </div>
+            <div class="book-grid">
+                <div class="book-card">
+                    <h3>Bumi manusia</h3>
+                    <p>Penulis: Pramodya Ananta Toer</p>
+                    <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="book-card">
+                    <h3>Pulang Pergi</h3>
+                    <p>Penulis: Tere Liye</p>
+                    <p class="rating">Rating: ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="book-card">
+                    <h3>Negeri di Ujung Tanduk</h3>
+                    <p>Penulis: Tere Liye</p>
+                    <p class="rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="book-card">
+                    <h3>Negeri Para Bandit</h3>
+                    <p>Penulis:Tere Liye</p>
+                    <p class="rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="buku-akan-dibaca" class="book-list">
+            <h2>Rencana Baca</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <h3>The 7 Habits of Highly Effective People</h3>
+                    <p>Penulis: Stephen R. Covey</p>
+                    <p class="status">Status: Belum dibaca</p>
+                </div>
+            </div>
+        </section>
+        <div class="book-grid">
+                <div class="book-card">
+                    <h3>Madilog</h3>
+                    <p>Penulis: Tan Malaka</p>
+                    <p class="status">Status: Belum dibaca</p>
+
+        <section id="rekomendasi" class="recommendation">
+            <h2>Berikan Rekomendasi</h2>
+            <form>
+                <div class="form-group">
+                    <label for="judul">Judul Buku:</label>
+                    <input type="text" id="judul" name="judul" required>
+                </div>
+                <div class="form-group">
+                    <label for="penulis">Penulis:</label>
+                    <input type="text" id="penulis" name="penulis" required>
+                </div>
+                <div class="form-group">
+                    <label for="alasan">Mengapa merekomendasikan buku ini?</label>
+                    <textarea id="alasan" name="alasan" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Rating:</label>
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5">★</label>
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4">★</label>
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3">★</label>
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2">★</label>
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1">★</label>
+                    </div>
+                </div>
+                <button type="submit">Kirim Rekomendasi</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Website</h3>
+                <p>Website catatan membaca pribadi untuk berbagi pengalaman dan rekomendasi buku.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Media Sosial</h3>
+                <div class="social-links">
+                    <a href="mailto:umnia119@gmail.com" class="social-link">Email: umnia119@gmail.com</a>
+                    <a href="https://instagram.com/umniaa__" class="social-link">Instagram: @umniaa__</a>
+                    <a href="#" class="social-link">Goodreads</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Anda">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Dunia Buku Umnia. Made with ❤️</p>
+        </div>
+    </footer>
+</body>
+</html>
